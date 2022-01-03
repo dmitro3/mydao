@@ -4,11 +4,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: StakedOtterClamERC20V2
-    network: matic
+    network: mumbai
     source:
-      address: '0xAAc144Dc08cE39Ed92182dd85ded60E5000C9e67'
+      address: '0x8fF63afF95D5f11166981A19230811833E2aBF35'
       abi: StakedOtterClamERC20V2
-      startBlock: 21593526
+      startBlock: 23461762
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -55,11 +55,11 @@ dataSources:
 
   - kind: ethereum/contract
     name: OtterTreasury
-    network: matic
+    network: mumbai
     source:
-      address: '0x8ce47D56EAa1299d3e06FF3E04637449fFb01C9C'
+      address: '0xb026c6F158B1d6fE987C7154755df3b268F027ef'
       abi: OtterTreasury
-      startBlock: 21593526
+      startBlock: 23461295
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
